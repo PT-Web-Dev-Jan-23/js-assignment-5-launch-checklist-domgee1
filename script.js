@@ -1,6 +1,6 @@
 // Write your JavaScript code here!
 
-const { myFetch, pickPlanet, addDestinationInfo, formSubmission } = require("./scriptHelper");
+
 
 window.addEventListener("load", function() {
 
@@ -29,7 +29,7 @@ console.log("wow!!")
    let form = document.querySelector("form")
    let pilotName = document.querySelector("input[name=pilotName]")
    let copilotName = document.querySelector("input[name=copilotName]")
-   let fuelLevels = document.querySelector("input[name=fuelLevels]")
+   let fuelLevels = document.querySelector("input[name=fuelLevel ]")
    let cargoMass = document.querySelector("input[name=cargoMass]");
    list.style.visibility = "hidden"
    console.log("hello")
@@ -42,4 +42,5 @@ console.log("wow!!")
     console.log(pilotName.value)
    
    });
+   return;
 });
